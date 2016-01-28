@@ -52,7 +52,7 @@ class TipViewController: UIViewController {
             tipLabel.text = String(format:"$%.2f", tipAmount)
             totalLabel.text = String(format:"$%.2f", totalAmount)
 //            topView.center.x = topView.center.x+100
-            billAmountField.center.y = billAmountField.center.y+100
+//            billAmountField.center.y = billAmountField.center.y+100
             
         } else {
             tipLabel.text = ""

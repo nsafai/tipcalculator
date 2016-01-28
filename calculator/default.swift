@@ -20,6 +20,13 @@ class TipViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         billAmountField.becomeFirstResponder()
+    
+        
+    }
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        let defaults = NSUserDefaults.standardUserDefaults()
+        tipControl.selectedSegmentIndex = defaults.integerForKey("default_tip_index")
     }
 
     override func didReceiveMemoryWarning() {
@@ -32,7 +39,7 @@ class TipViewController: UIViewController {
         
         var tipPercentages =  [0.1, 0.15, 0.2]
         let chosenTip = tipPercentages[tipControl.selectedSegmentIndex]
-        
+
         if let billAmount = Double(billAmountField.text!) {
 //            print(billAmount)
             let tipAmount = billAmount*chosenTip

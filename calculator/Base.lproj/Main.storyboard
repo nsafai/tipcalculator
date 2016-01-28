@@ -285,6 +285,9 @@
                                     <segment title="20%"/>
                                 </segments>
                                 <color key="tintColor" red="0.72549019609999998" green="0.20954433450000001" blue="0.15511070129999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="changeDefaultTip:" destination="qN6-cq-IIB" eventType="valueChanged" id="bfu-IU-es7"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>

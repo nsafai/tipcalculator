@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B11941CC1C54B7FE00386226 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11941CB1C54B7FE00386226 /* AppDelegate.swift */; };
-		B11941CE1C54B7FE00386226 /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11941CD1C54B7FE00386226 /* TipViewController.swift */; };
+		B11941CE1C54B7FE00386226 /* default.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11941CD1C54B7FE00386226 /* default.swift */; };
 		B11941D11C54B7FE00386226 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B11941CF1C54B7FE00386226 /* Main.storyboard */; };
 		B11941D41C54B7FE00386226 /* calculator.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B11941D21C54B7FE00386226 /* calculator.xcdatamodeld */; };
 		B11941D61C54B7FE00386226 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B11941D51C54B7FE00386226 /* Assets.xcassets */; };
@@ -38,7 +38,7 @@
 /* Begin PBXFileReference section */
 		B11941C81C54B7FE00386226 /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B11941CB1C54B7FE00386226 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B11941CD1C54B7FE00386226 /* TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
+		B11941CD1C54B7FE00386226 /* default.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = default.swift; sourceTree = "<group>"; };
 		B11941D01C54B7FE00386226 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B11941D31C54B7FE00386226 /* calculator.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = calculator.xcdatamodel; sourceTree = "<group>"; };
 		B11941D51C54B7FE00386226 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,7 +103,7 @@
 			children = (
 				B11941CB1C54B7FE00386226 /* AppDelegate.swift */,
 				B11941CF1C54B7FE00386226 /* Main.storyboard */,
-				B11941CD1C54B7FE00386226 /* TipViewController.swift */,
+				B11941CD1C54B7FE00386226 /* default.swift */,
 				B1BBCA8E1C59F7C90009ED71 /* SettingsViewController.swift */,
 				B11941D51C54B7FE00386226 /* Assets.xcassets */,
 				B11941D71C54B7FE00386226 /* LaunchScreen.storyboard */,
@@ -262,7 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B11941CE1C54B7FE00386226 /* TipViewController.swift in Sources */,
+				B11941CE1C54B7FE00386226 /* default.swift in Sources */,
 				B11941D41C54B7FE00386226 /* calculator.xcdatamodeld in Sources */,
 				B11941CC1C54B7FE00386226 /* AppDelegate.swift in Sources */,
 				B1BBCA8F1C59F7C90009ED71 /* SettingsViewController.swift in Sources */,

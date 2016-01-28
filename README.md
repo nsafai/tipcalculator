@@ -9,3 +9,6 @@
 - added settings page as a separate view controller
 - Added loading and saving of default tip
 - played around with animations but do not have a functional version to push yet
+
+**Quick Demo**
+![GIF Demo](TipCalculatorGIF.gif)
